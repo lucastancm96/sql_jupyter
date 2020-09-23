@@ -5,8 +5,7 @@ A database is an organized collection of structured data. Databased Management S
 * Network DBMS (NDBMS)
 * Relational DBMS (RDBMS)
 * Object-oriented DBMS (OODBMS)
-</br>
-Of all the above, RDBMS is the most frequently used DBMS. A Structured Query Language (SQL) is a domain-specific language used to manage data stored in a RDBMS. The key functions of SQL include insert, delete, update, modify data, and etc. Myriad of SQL servers (or RDBMS softwares) are available:</br>
+Of all the above, RDBMS is the most frequently used DBMS. A Structured Query Language (SQL) is a domain-specific language used to manage data stored in a RDBMS. The key functions of SQL include insert, delete, update, modify data, and etc. Myriad of SQL servers (or RDBMS softwares) are available: </br>
 * Microsoft SQL Server
 * MySQL
 * IBM DB2 Oracle
@@ -14,7 +13,6 @@ Of all the above, RDBMS is the most frequently used DBMS. A Structured Query Lan
 * Sybase ASE
 * SQLite
 * PostgreSQL
-</br>
 However, the choice of SQL server largely depends on the company a data scientist is working for. In addition, the syntax may change a little bit based on the DBMS one is using.
 
 ### References
