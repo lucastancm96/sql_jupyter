@@ -20,9 +20,9 @@ However, the choice of SQL server largely depends on the company a data scientis
 ### How SQL query is executed?
 There are many ways to execute SQL query and the following illustrates the most common approaches:
 1. Run SQL query directly in the SQL server.
-![Tables in SQLite](../img/sqlite_01.png)<br/>
+![Tables in SQLite](/img/sqlite_01.png)<br/>
 Tables in the `trackdb.sqlite`.<br/>
-![Execute SQL query in SQLite](../img/sqlite_02.png)
+![Execute SQL query in SQLite](/img/sqlite_02.png)
 Performing SQL directly in the SQLite database.<br/>
 
 ### References
