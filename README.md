@@ -31,10 +31,12 @@ Performing SQL directly in the SQLite database.<br/>
 * https://www.quackit.com/sql_server/mac/install_sql-cli_on_a_mac.cfm (terminal)
 
 3. Run SQL query using Python script (for SQLite). To do this, we need to use three existing function in Python:
-* conn = sqlite3.connect(`path`)
+```python
+* conn = sqlite3.connect("db/track.sqlite")
 * cur = conn.cursor() 
-* cur.executescript(`SQL queries`)<br/>
-The Python script can then be executed in IDE like `PyCharm`, `Spyder`, or `VSCode`. Example of Python script can be found in *pending link*
+* cur.executescript(`SELECT * FROM Album`)<br/>
+```
+The Python script can then be executed in IDE like `PyCharm`, `Spyder`, or `VSCode`. Example of Python script can be found in *pending link* 
 
 4. Run SQL query using Jupyter. This will be demonstrated in this repo.
 
