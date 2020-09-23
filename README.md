@@ -1,5 +1,5 @@
 # Executing SQL in Jupyter
-### Introduction
+## Introduction
 A database is an organized collection of structured data. Databased Management System (DBMS) is a software for storing and retrieving data in a simple organized way. There are four types of DBMS: <br/>
 * Hierarchical DBMS (HDBMS)
 * Network DBMS (NDBMS)
@@ -17,7 +17,7 @@ Of all the above, RDBMS is the most frequently used DBMS. A Structured Query Lan
 * PostgreSQL <br/>
 However, the choice of SQL server largely depends on the company a data scientist is working for. In addition, the syntax may change a little bit based on the DBMS one is using.
 
-### How SQL query is executed?
+## How SQL query is executed?
 There are many ways to execute SQL query and the following illustrates the most common approaches:
 1. Run SQL query directly in the SQL software.
 ![Tables in SQLite](/img/sqlite_01.png)<br/>
@@ -30,7 +30,7 @@ Performing SQL directly in the SQLite database.<br/>
 * https://www.tutorialspoint.com/run-sql-file-in-mysql-database-from-terminal (command)
 * https://www.quackit.com/sql_server/mac/install_sql-cli_on_a_mac.cfm (terminal)
 
-3. Run SQL query using Python script (for SQLite). To do this, we need to use three existing function in Python:
+3. Run SQL query using Python script (for SQLite). To do this, we need to use three existing functions in Python:
 ```python
 * conn = sqlite3.connect("db/track.sqlite")
 * cur = conn.cursor() 
