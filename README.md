@@ -41,6 +41,6 @@ The Python script can then be executed in IDE like `PyCharm`, `Spyder`, or `VSCo
 4. Run SQL query using Jupyter. This will be demonstrated in this repo.
 
 ### References
-[1] https://tec4tric.com/ds/is-sql-needed-for-data-scientist
+[1] https://tec4tric.com/ds/is-sql-needed-for-data-scientist<br/>
 [2] https://www.guru99.com/what-is-dbms.html#10
 
