@@ -32,9 +32,9 @@ Performing SQL directly in the SQLite database.<br/>
 
 3. Run SQL query using Python script (for SQLite). To do this, we need to use three existing functions in Python:
 ```python
-* conn = sqlite3.connect("db/track.sqlite")
-* cur = conn.cursor() 
-* cur.executescript(`SELECT * FROM Album`)
+conn = sqlite3.connect("db/track.sqlite")
+cur = conn.cursor() 
+cur.executescript(`SELECT * FROM Album`)
 ```
 The Python script can then be executed in IDE like `PyCharm`, `Spyder`, or `VSCode`. Example of Python script can be found in **pending link** 
 
